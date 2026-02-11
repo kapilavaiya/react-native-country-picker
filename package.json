@@ -1,5 +1,5 @@
 {
-  "name": "react-native-country-picker",
+  "name": "@avaiyakapil/react-native-country-picker",
   "version": "1.0.0",
   "description": "React Native country picker component with search, flags, calling codes, and 250+ countries. Perfect for phone number input, country selection, and internationalization. Highly customizable with TypeScript support.",
   "main": "src/index.ts",

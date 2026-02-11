@@ -1,4 +1,4 @@
-# Publishing Guide: react-native-country-picker
+# Publishing Guide: @avaiyakapil/react-native-country-picker
 
 ## Prerequisites
 
@@ -9,7 +9,7 @@
 ## Pre-Publishing Checklist
 
 ### 1. Verify package.json
-- ✅ Package name is available (check: `npm view react-native-country-picker`)
+- ✅ Package name is available (check: `npm view @avaiyakapil/react-native-country-picker`)
 - ✅ Version number is correct (starting with 1.0.0)
 - ✅ All required fields are filled
 - ✅ Keywords are comprehensive
@@ -63,12 +63,10 @@ cd /Users/kapilavaiya/Desktop/Project/OpenSource/src/components/react-native-cou
 ### Step 3: Check Package Name Availability
 
 ```bash
-npm view react-native-country-picker
+npm view @avaiyakapil/react-native-country-picker
 ```
 
-If it returns 404, the name is available. If it returns package info, you may need to:
-- Use a scoped package: `@yourusername/react-native-country-picker`
-- Or use a different name
+If it returns 404, the name is available. If it returns package info, the package is already published.
 
 ### Step 4: Update .npmignore (if needed)
 
@@ -110,17 +108,17 @@ npm publish
 
 ```bash
 # Check package on npm
-npm view react-native-country-picker
+npm view @avaiyakapil/react-native-country-picker
 
 # Or visit in browser
-# https://www.npmjs.com/package/react-native-country-picker
+# https://www.npmjs.com/package/@avaiyakapil/react-native-country-picker
 ```
 
 ### Step 8: Test Installation
 
 In a new project:
 ```bash
-npm install react-native-country-picker
+npm install @avaiyakapil/react-native-country-picker
 ```
 
 ## Post-Publishing
@@ -144,8 +142,8 @@ git push origin v1.0.0
 ## Troubleshooting
 
 ### Error: Package name already exists
-- Use scoped package: `@yourusername/react-native-country-picker`
-- Update package.json name field
+- This package uses scoped name: `@avaiyakapil/react-native-country-picker`
+- Ensure package.json name field is correct
 - Publish with: `npm publish --access public`
 
 ### Error: You must verify your email
@@ -184,7 +182,7 @@ npm login
 npm whoami
 
 # Check package availability
-npm view react-native-country-picker
+npm view @avaiyakapil/react-native-country-picker
 
 # Dry run
 npm publish --dry-run
@@ -196,7 +194,7 @@ npm publish --access public
 npm version patch && npm publish
 
 # View published package
-npm view react-native-country-picker
+npm view @avaiyakapil/react-native-country-picker
 ```
 
 ## Important Notes

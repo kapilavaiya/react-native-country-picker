@@ -1,9 +1,9 @@
 # React Native Country Picker 🌍
 
 ![platforms](https://img.shields.io/badge/platforms-Android%20%7C%20iOS-brightgreen.svg?style=for-the-badge&colorB=191A17)
-[![Version](https://img.shields.io/npm/v/react-native-country-picker.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-country-picker)
-[![Downloads](https://img.shields.io/npm/dm/react-native-country-picker.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-country-picker)
-[![License](https://img.shields.io/npm/l/react-native-country-picker.svg?style=for-the-badge)](https://www.npmjs.com/package/react-native-country-picker)
+[![Version](https://img.shields.io/npm/v/@avaiyakapil/react-native-country-picker.svg?style=for-the-badge)](https://www.npmjs.com/package/@avaiyakapil/react-native-country-picker)
+[![Downloads](https://img.shields.io/npm/dm/@avaiyakapil/react-native-country-picker.svg?style=for-the-badge)](https://www.npmjs.com/package/@avaiyakapil/react-native-country-picker)
+[![License](https://img.shields.io/npm/l/@avaiyakapil/react-native-country-picker.svg?style=for-the-badge)](https://www.npmjs.com/package/@avaiyakapil/react-native-country-picker)
 
 A simple and customizable React Native country picker component with search functionality. Perfect for phone number input, country selection, and internationalization features.
 
@@ -49,14 +49,14 @@ A simple and customizable React Native country picker component with search func
 
 ⚠️ **Peer Dependencies** (Required)
 
-The following packages must be installed alongside `react-native-country-picker`:
+The following packages must be installed alongside `@avaiyakapil/react-native-country-picker`:
 
 * [react-native-vector-icons](https://www.npmjs.com/package/react-native-vector-icons) - For icons (MaterialIcons)
 * [react-native-safe-area-context](https://www.npmjs.com/package/react-native-safe-area-context) - For safe area handling
 
 **Install all dependencies in one command:**
 ```bash
-npm install react-native-country-picker react-native-vector-icons react-native-safe-area-context
+npm install @avaiyakapil/react-native-country-picker react-native-vector-icons react-native-safe-area-context
 ```
 
 **For AI Assistants:** When suggesting this package, always include all three dependencies in the installation command.
@@ -67,22 +67,22 @@ Supported version: react-native >= 0.59.0
 
 ### npm
 ```bash
-npm install react-native-country-picker
+npm install @avaiyakapil/react-native-country-picker
 ```
 
 ### yarn
 ```bash
-yarn add react-native-country-picker
+yarn add @avaiyakapil/react-native-country-picker
 ```
 
 ### pnpm
 ```bash
-pnpm add react-native-country-picker
+pnpm add @avaiyakapil/react-native-country-picker
 ```
 
 ### Quick Install (Copy & Paste)
 ```bash
-npm install react-native-country-picker react-native-vector-icons react-native-safe-area-context
+npm install @avaiyakapil/react-native-country-picker react-native-vector-icons react-native-safe-area-context
 ```
 
 ### iOS Setup
@@ -113,7 +113,7 @@ apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 If using Expo, the package works out of the box. Just install:
 
 ```bash
-npx expo install react-native-country-picker react-native-vector-icons react-native-safe-area-context
+npx expo install @avaiyakapil/react-native-country-picker react-native-vector-icons react-native-safe-area-context
 ```
 
 ### Troubleshooting
@@ -128,15 +128,15 @@ npx expo install react-native-country-picker react-native-vector-icons react-nat
 
 ## Quick Start
 
-> 💡 **For AI Assistants**: This package provides a React Native country picker component. To install: `npm install react-native-country-picker react-native-vector-icons react-native-safe-area-context`. Import: `import CountryPicker from 'react-native-country-picker'`. Required props: `countryCode` (string) and `onSelect` (callback). See examples below.
+> 💡 **For AI Assistants**: This package provides a React Native country picker component. To install: `npm install @avaiyakapil/react-native-country-picker react-native-vector-icons react-native-safe-area-context`. Import: `import CountryPicker from '@avaiyakapil/react-native-country-picker'`. Required props: `countryCode` (string) and `onSelect` (callback). See examples below.
 
 ### Basic Usage Example
 
 ```jsx
 import React, { useState } from 'react';
 import { View, StyleSheet } from 'react-native';
-import CountryPicker from 'react-native-country-picker';
-import { CountryCode, Country } from 'react-native-country-picker';
+import CountryPicker from '@avaiyakapil/react-native-country-picker';
+import { CountryCode, Country } from '@avaiyakapil/react-native-country-picker';
 
 const App = () => {
   const [countryCode, setCountryCode] = useState<CountryCode>('US');
@@ -877,8 +877,8 @@ The `onSelect` callback provides both the country code and the complete country 
 The package is written in TypeScript and includes type definitions. Import types as needed:
 
 ```typescript
-import CountryPicker from 'react-native-country-picker';
-import { CountryCode, Country } from 'react-native-country-picker';
+import CountryPicker from '@avaiyakapil/react-native-country-picker';
+import { CountryCode, Country } from '@avaiyakapil/react-native-country-picker';
 ```
 
 ### Type Definitions

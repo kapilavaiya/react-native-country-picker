@@ -24,7 +24,7 @@ A simple and customizable React Native country picker component with search func
 
 ## Demo
 
-> 📹 **Note**: Demo GIFs will be added here. See `Demo/README.md` for recording instructions.
+> 📹 **Note**: Demo GIF.
 
 ### Basic Usage
 ![Basic Example](Demo/demo.gif)
@@ -969,8 +969,9 @@ ISC
 
 **Kapil Avaiya**
 
-- GitHub: [@avaiyakapil](https://github.com/avaiyakapil)
-- Twitter: [@avaiyakapil](https://twitter.com/avaiyakapil)
+- GitHub: [@kapilavaiya](https://github.com/kapilavaiya)
+- Twitter: [@kapilavaiya](https://twitter.com/kapilavaiya)
+- Linkedin: [@kapilavaiya](https://www.linkedin.com/in/kapilavaiya/)
 
 ---
 

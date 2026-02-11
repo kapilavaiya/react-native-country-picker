@@ -1,0 +1,74 @@
+{
+  "name": "react-native-country-picker",
+  "version": "1.0.0",
+  "description": "React Native country picker component with search, flags, calling codes, and 250+ countries. Perfect for phone number input, country selection, and internationalization. Highly customizable with TypeScript support.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avaiyakapil/react-native-country-picker.git"
+  },
+  "homepage": "https://github.com/avaiyakapil/react-native-country-picker#readme",
+  "bugs": {
+    "url": "https://github.com/avaiyakapil/react-native-country-picker/issues"
+  },
+  "keywords": [
+    "country",
+    "country-picker",
+    "country-selector",
+    "country-select",
+    "country-chooser",
+    "react",
+    "react-native",
+    "react-native-country-picker",
+    "react-native-country-selector",
+    "react-component",
+    "phone-code",
+    "phone-number",
+    "calling-code",
+    "dial-code",
+    "flag",
+    "flags",
+    "country-flags",
+    "international",
+    "i18n",
+    "internationalization",
+    "locale",
+    "localization",
+    "phone-input",
+    "phone-number-input",
+    "country-code",
+    "iso-3166",
+    "country-list",
+    "country-data",
+    "mobile",
+    "ios",
+    "android",
+    "expo",
+    "typescript",
+    "ts",
+    "picker",
+    "dropdown",
+    "select",
+    "modal",
+    "search",
+    "searchable",
+    "customizable",
+    "animated"
+  ],
+  "author": "Kapil Avaiya",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.59.0",
+    "react-native-safe-area-context": ">=3.0.0",
+    "react-native-vector-icons": ">=6.0.0"
+  }
+}

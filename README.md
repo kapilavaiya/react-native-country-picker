@@ -957,9 +957,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Support
 
-- 📧 Email: [Your Email]
-- 🐛 Issues: [GitHub Issues](https://github.com/avaiyakapil/react-native-country-picker/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/avaiyakapil/react-native-country-picker/discussions)
+- 📧 Email: avaiyakapil@gmail.com
+- 🐛 Issues: [GitHub Issues](https://github.com/kapilavaiya/react-native-country-picker/issues)
 
 ## License
 

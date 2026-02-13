@@ -27,7 +27,7 @@ A simple and customizable React Native country picker component with search func
 > 📹 **Note**: Demo GIF.
 
 ### Basic Usage
-![Basic Example](Demo/demo.gif)
+![Basic Example](https://github.com/kapilavaiya/react-native-country-picker/blob/master/Demo/demo.gif)
 
 *Simple and clean country picker with default styling*
 
